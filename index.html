@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -26,20 +27,20 @@
                         Plots
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="./Resources/Visualizations/Fig1.png">City Lat vs Max Temperature</a>
+                        <a class="dropdown-item" href="./webvis/max_temp_page.html">Max Temp</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="./Resources/Visualizations/Fig2.png">City Lat vs Humidity</a>
+                        <a class="dropdown-item" href="./webvis/humidity_page.html">Humidity</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="./Resources/Visualizations/Fig3.png">Ciyt Lad vs Cloudiness</a>
+                        <a class="dropdown-item" href="./webvis/cloudiness_page.html">Cloudiness</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="./Resources/Visualizations/Fig4.png">CIty Lat vs Wind Speed</a>
+                        <a class="dropdown-item" href="./webvis/windiness_page.html">Wind Speed</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./WebVisualizations/comparisons_page.html">Comparison</a>
+                    <a class="nav-link" href="./webvis/comparisons_page.html">Comparison</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./WebVisualizations/data_page.html">Data</a>
+                    <a class="nav-link" href="./webvis/data_page.html">Data</a>
                 </li>
             </ul>
         </div>
@@ -48,23 +49,26 @@
     <!-- Container Section -->
 
     <div class="container">
-        <section class="row">
             <div class="col-md-7 col-sm-12">
                 <div class="main-content">
                     <h2 class="main-header">Summary: Latitude vs. X</h2>
                     <hr>
                     <div class="row">
                         <div class="col-md-5">
-                            <img src="./Visualizations/Fig1.png" width=100% alt="City Lat vs Max Temperature" class="main-image">
+                            <img src="./Resources/images/Fig1.png" width=100% alt="Lat vs. Max Temperature" class="main-image">
                         </div>
                         <div class="col-md-7">
-                            <p>Analyze how weather changes based on distance from the equator.</p>
+                            <p>Analyze how weather changes as you get closer to the equator. TO do this, us an API key to pull from OpenWeatherMap.</p>
+                        </div>
+                        <div>
+                            <p>After obtaining the data, Matplotlib was used to plot various aspects of the weather vs. latitude. Key metrics reviewed were temperature, cloudiness, wind speed, and humidity. This site provides links to hte the source data and analysis visualizations.</p>
                         </div>
                         <hr>
                     </div>
                 </div>
             </div>
 
+            <!--------------------------------------------------------------------------------------->
             <!-- Preview Section on the Side -->
             <div class="col-md-5 col-sm-12">
             <section id="side-preview">
@@ -74,22 +78,22 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-6">
-                                <a href="./Resources/Visualizations/max_temp_page.html">
+                                <a href="./webvis/max_temp_page.html">
                                 <img src="./img/Fig1.png" width=100% alt="Latitude vs Max Temperature", title="Latitude vs Max Temperature" class="side-image">
                                 </a>
                             </div>
                             <div class="col-6">
-                                <a href="./Resources/Visualizations/humidity_page.html">
+                                <a href="./webvis/humidity_page.html">
                                 <img src="./img/Fig2.png" width=100% alt="Latitude vs Humidity", title="Latitude vs Humidity" class="side-image">
                                 </a>
                             </div>
                             <div class="col-6">
-                                <a href="./Resources/Visualizations/cloudiness_page.html">
+                                <a href="./webvis/cloudiness_page.html">
                                 <img src="./img/Fig3.png" width=100% alt="Latitude vs Cloudiness", title="Latitude vs Cloudiness" class="side-image">
                                 </a>
                             </div>
                             <div class="col-6">
-                                <a href="./Resources/Visualizations/windiness_page.html">
+                                <a href="./webvis/windiness_page.html">
                                 <img src="./img/Fig4.png" width=100% alt="Latitude vs Wind Speed", title="Latitude vs Wind Speed" class="side-image">
                                 </a>
                             </div>
