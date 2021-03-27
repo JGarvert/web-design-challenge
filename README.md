@@ -10,7 +10,7 @@ Specifically, this website should include:
 2. 4 Visualiztion pages
 3. Comparisons page
 4. Data page
-In addition to the above pages, it includes dropdown menu items
+In addition to the above pages, it includes dropdown menu items and is responsive to to adjusted screen sizes.
 
 
 
